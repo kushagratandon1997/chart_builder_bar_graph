@@ -1,0 +1,60 @@
+body 
+{
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+.bars
+{
+	background-color: red;
+	height: 25px;
+	margin: 10px 0 0 0;
+	transition:width 1s ease-in;
+}	
+
+#bar0 
+{
+	width: 900px;
+}
+
+#bar1 
+{
+	width: 777px;
+}
+
+#bar2 
+{
+	width: 236px;
+}
+
+.number 
+{
+	color: white;
+	text-align: right;
+	padding: 3px;
+	font-size: 12px; 
+}
+
+#main
+{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	overflow: auto;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.tooltip 
+{
+    display:none;
+    background: beige;
+    font-size:14px;
+    height:25px;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    color: black;
+    border: 1px solid black;
+  }
